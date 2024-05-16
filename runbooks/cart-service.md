@@ -1,13 +1,15 @@
-# Symptom
+# Cart Service Runbook
+
+## Symptom
 
 Users unable to add items to the cart.
 
-# Potential Causes
+## Potential Causes
 
 - Cart service is down.
 - Database connection issues.
 
-# Investigation Steps
+## Investigation Steps
 
 1. Confirm the issue by reproducing it.
 2. Check the status of the cart service deployment in Kubernetes:
@@ -22,7 +24,7 @@ Users unable to add items to the cart.
 
 4. Check the database connection status.
 
-# Resolution Steps
+## Resolution Steps
 
 - If the service is down, restart it.
 - If there are database connection issues, check the database server status and network connectivity.
